@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - Xaodrescan</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- HEADER -->
+  <header>
+    <div class="logo">
+      <img src="logo.png" alt="Logo Xaodrescan" width="40" height="40">
+      Xaodrescan
+    </div>
+    <nav>
+      <a href="#">Início</a>
+      <a href="#">Lançamentos</a>
+      <a href="#">Catálogo</a>
+      <a href="#">Equipe</a>
+      <a href="https://discord.gg/SEU_INVITE" target="_blank" class="discord-link">
+    <img src="discord.webp" alt="Discord" width="30"> </a>
+    </nav>
+  </header>
+
+  <!-- SLIDER -->
+  <div id="hero-slider" class="slider">
+    <div class="slide active" style="background-image: url('CAPATGHDS.png');">
+      <div class="overlay">
+        <h2>Bem-vindo à Xaodrescan</h2>
+        <p>Scanlator dedicada a trazer os melhores mangás para você.</p>
+      </div>
+    </div>
+    <div class="slide" style="background-image: url('slide2.webp');">
+      <div class="overlay">
+        <h2>Novos capítulos toda semana</h2>
+        <p>Fique ligado nos lançamentos atualizados.</p>
+      </div>
+    </div>
+    <div class="slide" style="background-image: url('slide3.jpg');">
+      <div class="overlay">
+        <h2>Junte-se à comunidade</h2>
+        <p>Venha participar e apoiar nosso trabalho.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- LANÇAMENTOS -->
+  <section class="section">
+    <h3>Últimos Lançamentos</h3>
+    <div class="grid">
+     <div class="card" onclick="location.href='mangá.html'">
+  <img src="CAPATGHDS.png"Manga 1">
+  <h4> The Great Heavenly Demon Sovereign </h4>
+</div>
+      <div class="card"onclick="location.href='mangá.html'">
+
+        <img src="altmnh2.png" alt="Manga 2">
+        <h4>O Retorno do Jogador Congelado</h4>
+      
+        </div>
+      <div class="card"onclick="location.href='mangá.html'">
+        <img src="altmnh.png" alt="Manga 3">
+        <h4>O Pet Leal da Duquesa</h4>
+      </div>
+      <div class="card"onclick="location.href='mangá.html'">
+        <img src="altmnh3.jpg" alt="Manga 4">
+        <h4>Solo Leveling</h4>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; <span id="year"></span> CodeNext - Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
