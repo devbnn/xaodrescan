@@ -23,16 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Capítulos com todas as páginas corretas
     const chapters = {
       1: [
-        'Pag.1 TG.jpg', 'Pag.2 TG.jpg', 'Pag.3 TG.jpg', 'Pag.4 TG.jpg',
-        'Pag.5 TG.jpg', 'Pag.6 TG.jpg', 'Pag.7 TG.jpg', 'Pag.8 TG.jpg',
-        'Pag.9 TG.jpg', 'Pag.10 TG.jpg', 'Pag.11 TG.jpg', 'Pag.12 TG.jpg',
-        'Pag.13 TG.jpg', 'Pag.14 TG.jpg', 'Pag.15 TG.jpg', 'Pag.16 TG.jpg',
-        'Pag.17 TG.jpg', 'Pag.18 TG.jpg', 'Pag.19 TG.jpg', 'Pag.20 TG.jpg',
-        'Pag.21 TG.jpg', 'Pag.22 TG.jpg', 'Pag.23 TG.jpg', 'Pag.24 TG.jpg',
-        'Pag.25 TG.jpg', 'Pag.26 TG.jpg', 'Pag.27 TG.jpg', 'Pag.28 TG.jpg',
-        'Pag.29 TG.jpg', 'Pag.30 TG.jpg', 'Pag.31 TG.jpg', 'Pag.32 TG.jpg',
-        'Pag.33 TG.jpg', 'Pag.34 TG.jpg', 'Pag.35 TG.jpg', 'Pag.36 TG.jpg',
-        'Pag.37 TG.jpg', 'Pag.38 TG.jpg'
+        'Pag.1 TG.jpg', 'Pag.2 TG.jpg', 'Pag.3 TG.jpg'
       ],
       2: [
         // Coloque aqui as páginas do capítulo 2 com nomes corretos
@@ -104,3 +95,4 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
 });
+
