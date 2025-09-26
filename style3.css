@@ -1,0 +1,82 @@
+:root {
+  --bg-dark: #0d0d0d;
+  --bg-light: #1a1a1a;
+  --accent: #ff1a1a; /* vermelho */
+  --text-light: #e0e0e0;
+  --text-muted: #777;
+}
+
+* {
+  margin: 0; padding: 0; box-sizing: border-box; font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color: var(--bg-dark);
+  color: var(--text-light);
+  line-height: 1.6;
+}
+
+header {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 15px 20px;
+  background-color: var(--bg-light);
+  position: sticky; top: 0; z-index: 1000;
+  border-bottom: 2px solid var(--accent);
+}
+
+header .logo a, header .logo {
+  display: flex; align-items: center; text-decoration: none; color: var(--accent);
+  font-size: 1.4rem; font-weight: bold;
+}
+header .logo img { margin-right: 10px; }
+
+header nav a {
+  text-decoration: none; color: var(--text-light); font-weight: 600;
+  transition: color 0.3s;
+}
+header nav a:hover { color: var(--accent); }
+
+.reader { max-width: 1000px; margin: 30px auto; padding: 0 20px; }
+.reader-head { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; flex-wrap: wrap; }
+.reader-head h1 { font-size: 1.8rem; color: var(--accent); }
+#chapter-select {
+  padding: 8px 12px; border-radius: 6px; border: none;
+  background-color: var(--bg-light); color: var(--text-light); font-weight: bold;
+}
+
+/* Banner do capítulo */
+.chapter-banner {
+  text-align: center; margin: 20px 0;
+  background-color: var(--bg-light); padding: 15px; border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.6);
+}
+.chapter-banner-img { max-width: 100%; border-radius: 10px; border: 2px solid var(--accent); }
+
+/* Reader Pages */
+.reader-pages { margin-top: 20px; }
+.page-wrapper { position: relative; margin-bottom: 1.5rem; }
+.page-img { width: 100%; display: block; border-radius: 4px; }
+
+/* Recruitment Banner */
+.recruitment { text-align: center; margin-top: 2rem; }
+.recruitment-img { max-width: 100%; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.5); border: 2px solid var(--accent); }
+
+/* Navigation Buttons */
+.reader-nav { display: flex; justify-content: space-between; margin: 20px 0; }
+.btn-ghost {
+  background: none; border: 2px solid var(--accent); color: var(--accent);
+  padding: 10px 20px; border-radius: 6px; font-weight: bold; cursor: pointer; transition: all 0.3s;
+}
+.btn-ghost:hover { background-color: var(--accent); color: var(--text-light); }
+
+/* Footer */
+footer {
+  background: var(--bg-light); padding: 20px; text-align: center;
+  color: var(--text-muted); border-top: 2px solid var(--accent); margin-top: 40px;
+}
+
+@media(max-width:768px){
+  .reader-head { flex-direction: column; gap: 10px; }
+  header nav { flex-wrap: wrap; justify-content: center; }
+  header nav a { margin: 0.5rem; }
+}

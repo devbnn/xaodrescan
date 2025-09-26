@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mangá - Xaodrescan</title>
+  <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <a href="index.html">
+        <img src="logo.png" alt="Xaodrescan" width="40"> Xaodrescan
+      </a>
+    </div>
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="#lancamentos">Lançamentos</a>
+      <a href="#catalogo">Catálogo</a>
+      <a href="#equipe">Equipe</a>
+      <a href="https://discord.gg/SEU_INVITE" target="_blank" class="discord-link">
+    <img src="discord.webp" alt="Discord" width="30"> </a>
+    </nav>
+  </header>
+
+  <main class="section">
+    <div class="manga-detail">
+      <div class="manga-cover">
+        <img src="CAPATGHDS.png" alt="Capa do mangá exemplo">
+      </div>
+      <div class="manga-info">
+        <h1>The Great Heavenly Demon Sovereign</h1>
+        <p class="muted">Autor: Desconhecido| Status: Em andamento | Gênero: Shonen</p>
+        <p>Sinopse: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <div class="manga-actions">
+          <a href="read.html?c=24" class="btn-primary">Ler último capítulo</a>
+          <a href="#chapters" class="btn-outline">Ver capítulos</a>
+        </div>
+      </div>
+    </div>
+
+    <h2 id="chapters">Lista de Capítulos</h2>
+    <ul class="chapter-list">
+      <li><a href="read.html?c=24">Capítulo 1</a> <span class="muted">25/09/2025</span></li>
+      <li><a href="read.html?c=23">Capítulo 2</a> <span class="muted">25/09/2025</span></li>
+      <li><a href="read.html?c=22">Capítulo 3</a> <span class="muted">25/09/2025</span></li>
+    </ul>
+  </main>
+
+  <footer>
+   <p>&copy; <span id="year"></span> CodeNext - Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
